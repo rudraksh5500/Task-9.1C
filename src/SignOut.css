@@ -1,0 +1,35 @@
+/* SignOut.css */
+
+.signout-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #F5F5F5; /* Light gray background */
+  }
+  
+  .center-content {
+    text-align: center;
+  }
+  
+  .signout-heading {
+    color: #333; /* Dark gray text color */
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .signout-button {
+    background-color: #E74C3C; /* Red button background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .signout-button:hover {
+    background-color: #C0392B; /* Darker red on hover */
+  }
+  

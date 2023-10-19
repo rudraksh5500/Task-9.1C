@@ -1,0 +1,60 @@
+/* Container styles */
+.signup-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #333; /* Dark gray border */
+  border-radius: 5px;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styles */
+h1 {
+  font-size: 24px;
+  color: #f5d04c; /* Yellow */
+  margin: 10px 0;
+}
+
+/* Error message styles */
+.error-message {
+  background-color: #c0392b; /* Red */
+  color: #fff;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+/* Input styles */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #333; /* Dark gray border */
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #222; /* Dark background */
+  color: #fff; /* White text */
+}
+
+/* Sign-up button styles */
+signupbutton {
+  background-color: #f5d04c; /* Yellow */
+  border: none;
+  color: #000; /* Black text */
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+/* Apply a subtle hover effect */
+signupbutton:hover {
+  background-color: #f39c12; /* Slightly darker yellow */
+  color: #000; /* Black text */
+}
